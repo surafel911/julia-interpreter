@@ -1,0 +1,16 @@
+package julia.project.school;
+
+public enum NonTerminalType
+{
+    PROGRAM,
+    BLOCK,
+    STATEMENT,
+    IF_STATEMENT,
+    WHILE_STATEMENT,
+    ASSIGN_STATEMENT,
+    REPEAT_STATEMENT,
+    BOOLEAN_EXPRESSION,
+    RELATIVE_OP,
+    ARITHMETIC_EXPRESSION,
+    ARITHMETIC_OP;
+}
